@@ -1,44 +1,65 @@
-# HR Analytics & Employee Attrition Dashboard
+# HR Analytics & Employee Attrition Dashboard (Tableau Project)
 
-An end-to-end **HR Analytics Dashboard** built to analyze employee data, track performance metrics, and uncover key drivers behind employee attrition. This project provides actionable insights for HR departments to improve retention strategies, manage workloads, and optimize compensation structures.
+A comprehensive, interactive **Tableau Analytics Project** designed to track workforce metrics, analyze key drivers of employee turnover, and provide data-driven recommendations to improve retention and employee satisfaction.
+
+## 📊 Project Overview
+
+This project features two high-fidelity dashboard interfaces that consolidate critical human resource data to reveal underlying operational trends:
+1. **HR Analytics Dashboard:** Monitors overall workforce health, average monthly incomes, department-wise role comparisons, educational distributions, and job satisfaction ratings.
+2. **Employee Attrition Analysis:** Deep-dives into the operational, demographic, and behavioral factors directly influencing employee turnover.
 
 ---
 
-## 📊 Dashboards Overview
+## 🔑 Key Metrics Breakdown
+
+* **Total Employees:** 1,470
+* **Current Employees:** 1,233
+* **Attrition Count:** 237
+* **Overall Attrition Rate:** 16.12%
+* **Average Monthly Income:** \$6,503
+
+---
+
+## 🖼️ Dashboard Walkthrough & Features
 
 ### 1. HR Analytics Dashboard
-The main dashboard gives a comprehensive high-level overview of the organization's workforce distribution, income levels, and overall employee satisfaction.
+Monitors structural demographics, satisfaction metrics, and compensation breakdowns across business units.
 
 ![HR Analytics Dashboard](screenshots/hr-analysis.png)
 
-**Key Insights & Features:**
-*   **KPI Summary Cards:** Track key metrics instantly, including **Total Employees (1,470)**, **Attrition Count (237)**, **Attrition Rate (16.12%)**, **Current Active Employees (1,233)**, and **Average Monthly Income ($6,503)**.
-*   **Department-wise Avg. Income by Job Role:** A breakdown of monthly income across HR, R&D, and Sales departments showing stark contrasts between managerial roles and technical/execution staff.
-*   **Employees by Education:** A donut chart showing demographic education levels across the workforce.
-*   **Overtime Distribution:** Visualizes that **28.30%** of the workforce works overtime, a potential leading indicator for burnout.
-*   **Avg. Job Satisfaction Heatmap:** Maps job satisfaction ratings (out of 5) across departments and job roles to pinpoint low-morale segments (e.g., HR Human Resources at 2.56).
+* **Department-wise Avg. Income By Job Role:** Breaks down salaries to identify equity gaps; highlights that R&D and Sales Managers command the highest average compensation, while entry-level roles sit significantly lower.
+* **Overtime Distribution:** Tracks employee distribution where **28.30%** of the workforce clocks overtime hours, marking a critical indicator for burnout risk assessment.
+* **Avg. Job Satisfaction By Department:** Heatmap matrix evaluating satisfaction rankings out of 4 across roles (e.g., HR Managers scoring highest at `2.82`, while lower satisfaction scores flag vulnerable entry-level groups).
 
 ### 2. Employee Attrition Analysis
-This specialized view dives deep into historical attrition data to identify trends based on demographics, job roles, and work-life balance factors.
+Pinpoints demographic hotspots and organizational variables correlated with employee departures.
 
-![Employee Attrition Analysis Dashboard](screenshots/employee-attrition.png)
+![Employee Attrition Analysis](screenshots/employee-attrition.png)
 
-**Key Insights & Features:**
-*   **Attrition by Department:** Highlights that **R&D** has the highest total attrition volume (**133 employees**), followed by **Sales (92)** and **HR (12)**.
-*   **Attrition by Age Group & Gender:** Shows that the **25–34 age bracket** experiences the highest attrition, heavily driven by male employees (69 count).
-*   **Attrition by Job Role:** Identifies vulnerable positions, with **Laboratory Technicians (62)** and **Sales Executives (57)** leading the turnover metrics.
-*   **Attrition Rate by Work-Life Balance:** Directly correlates poor balance with turnover, showing a massive **31.25% attrition rate** among employees reporting "Poor" work-life balance compared to just 14.22% for "Good".
-
----
-
-## 🛠️ Tools & Technologies Used
-*   **Business Intelligence / Data Visualization:** Power BI / Tableau / Excel (Adjust based on your choice)
-*   **Data Source:** HR Employee Performance & Attrition dataset (CSV/SQL database)
-*   **Data Transformation:** Power Query / Pandas for ETL processes
+* **Attrition By Department:** **R&D** registers the largest absolute volume of departures (**133 employees**), closely followed by **Sales** (**92 employees**).
+* **Attrition By Job Role:** Entry and frontline roles experience the highest turnover intensity, led by **Laboratory Technicians (62)**, **Sales Executives (57)**, and **Research Scientists (47)**.
+* **Attrition By Age & Gender Group:** The **25–34 age bracket** experiences the most significant churn, with male employees heavily representing the highest absolute count (69) across all demographics.
+* **Attrition Rate By Work-Life Balance:** Correlates directly to retention success. Employees with a **'Poor' work-life balance record an alarming 31.25% attrition rate**, which is more than double the rate of those scoring 'Good' (14.22%).
 
 ---
 
-## 💡 Key Actionable Recommendations
-1.  **Work-Life Balance Interventions:** Address the high turnover rate (31.25%) in the "Poor" work-life balance segment by reviewing overtime policies (currently affecting 28.30% of employees).
-2.  **Targeted Retention for Critical Roles:** Formulate specialized retention plans, mentorships, or career growth pathways for **Laboratory Technicians** and **Sales Executives** who represent over half of all departures.
-3.  **Address Low Satisfaction Segments:** Investigate the underlying causes of the low job satisfaction score (**2.56**) among HR generalists/personnel.
+## 💡 Strategic Recommendations
+
+1. **Targeted Interventions for Voted Core Roles:** Deploy proactive career-progression tracking and retention bonuses for high-attrition roles like Laboratory Technicians and Sales Executives.
+2. **Work-Life Balance Policy Overhaul:** Introduce flexible scheduling, hybrid options, or project reallocations for departments reporting high overtime hours, directly combating the 31.25% turnover rate seen among overworked employees.
+3. **Early-Career Mentorship Initiatives:** Formulate tailored development programs targeted at the vulnerable 25-34 age demographic to build long-term institutional loyalty.
+
+---
+
+## 🛠️ Tech Stack & Instructions
+
+* **Analytics Tool:** Tableau Desktop / Tableau Public
+* **Data Sources:** HR Information Systems (HRIS) Excel/CSV Exports
+
+### How to Interact with the Tableau File (`.twbx`):
+1. Download the `HR_Analytics_Project.twbx` file from this repository.
+2. Open the workbook using **Tableau Desktop** or **Tableau Reader** (Free).
+3. Use the top filters (Department, Work-Life Balance, and Age Group) to interactively drill down into localized demographic insights.
+
+---
+*"This project serves as an executive roadmap to transform raw HR information into actionable retention strategies, helping organizations foster healthier, more sustainable workplace environments."*
