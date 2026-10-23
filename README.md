@@ -9,7 +9,7 @@ An end-to-end **HR Analytics Dashboard** built to analyze employee data, track p
 ### 1. HR Analytics Dashboard
 The main dashboard gives a comprehensive high-level overview of the organization's workforce distribution, income levels, and overall employee satisfaction.
 
-![HR Analytics Dashboard](screenshots/employee-attrition.png)
+![HR Analytics Dashboard](screenshots/hr-analysis.png)
 
 **Key Insights & Features:**
 *   **KPI Summary Cards:** Track key metrics instantly, including **Total Employees (1,470)**, **Attrition Count (237)**, **Attrition Rate (16.12%)**, **Current Active Employees (1,233)**, and **Average Monthly Income ($6,503)**.
@@ -21,7 +21,7 @@ The main dashboard gives a comprehensive high-level overview of the organization
 ### 2. Employee Attrition Analysis
 This specialized view dives deep into historical attrition data to identify trends based on demographics, job roles, and work-life balance factors.
 
-![Employee Attrition Analysis Dashboard](screenshots/hr-analysis.png)
+![Employee Attrition Analysis Dashboard](screenshots/employee-attrition.png)
 
 **Key Insights & Features:**
 *   **Attrition by Department:** Highlights that **R&D** has the highest total attrition volume (**133 employees**), followed by **Sales (92)** and **HR (12)**.
